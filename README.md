@@ -8,7 +8,7 @@ de défier d'autres joueurs.
 
 # Getting started
 
-To get the Node server running locally:
+Pour lancer le serveur Node en local:
 
 - Clone this repo
 - `npm install` installer toutes les dependences avec cette commende
