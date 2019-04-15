@@ -65,10 +65,10 @@ Fichier contenant la liste des packages utilisées durant ce projet citons :
     knex
     sqlite3
 # Amelioration 
-* Securisation du mot de passe saisie par l'uilisateur avec : 
-  -Changer les requetes get en post
-  -Crypter le pwd brut dans tout l'acheminement vers la base de données 
-  -Utilisation de systeme de token pour evité le Man in The Middle
+* Securisation du mot de passe saisie par l'uilisateur avec  
+  - Changer les requetes get en post
+  - Crypter le pwd brut dans tout l'acheminement vers la base de données 
+  - Utilisation de systeme de token pour evité le Man in The Middle
 * Amélioration de la communication client-serveur-client pour la page de connexion 
   - Utilisation des requétes AJAX et des données json pour l'echange et la vérification du formulaire 
 * Ajout de la fonctionnalités multi-room
