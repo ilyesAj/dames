@@ -30,12 +30,11 @@ solution cloud : essayer de remixer [![Remix on Glitch](https://cdn.glitch.com/2
 # Code Overview
 
 ### ← jeu.html
-Fichier conteant l'interface de jeu. Sur cette page va se dérouler tous les traitements pour la gestion
-du jeu.
+l'interface de jeu.
 
 ### ← Connexion.html
-La page de connexion contenant un formulaire qui permet soit de faire l'inscription soit se connecter.
-Aprés etre identifié vous serez rediriger vers une page contenant les chambres disponibles pour pouvoir
+La page de connexion contenant le formulaire qui permet soit de faire l'inscription soit de se connecter.
+Aprés être identifié vous serez rediriger vers une page contenant les chambres disponibles pour pouvoir
 défier d'autres joueurs
 
 ### ← styleConnexion.css
@@ -65,6 +64,16 @@ Fichier contenant la liste des packages utilisées durant ce projet citons :
     socket.io
     knex
     sqlite3
+# Amelioration 
+* Securisation du mot de passe saisie par l'uilisateur avec : 
+  -Changer les requetes get en post
+  -Crypter le pwd brut dans tout l'acheminement vers la base de données 
+  -Utilisation de systeme de token pour evité le Man in The Middle
+* Amélioration de la communication client-serveur-client pour la page de connexion 
+  - Utilisation des requétes AJAX et des données json pour l'echange et la vérification du formulaire 
+* Ajout de la fonctionnalités multi-room
+  - Le code est modulaire et peut intégrer le mode multi-room 
+  
 
 
 Made by  ilyes Ajroud iyed Cheberli
