@@ -5,7 +5,7 @@ Projet Dame ISTY
 =================
 Le projet consiste à réaliser le jeu de Dame en ligne multi-user multi-room incluant une interface de connexion avec la possibilité
 de défier d'autres joueurs.
-Nous avons utiliser Socket.io pour le Handshake Client-serveur 
+Nous avons utilisés Socket.io pour le Handshake Client-serveur 
 # Getting started
 
 Pour lancer le serveur Node en local:
