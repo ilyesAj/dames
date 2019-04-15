@@ -12,7 +12,7 @@ Pour lancer le serveur Node en local:
 
 - Clone this repo
 - `npm install` installer toutes les dependences avec cette commende
-solution cloud : essayer de remixer [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/~3asba-3elasormek)
+- solution cloud : essayer de remixer [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/~3asba-3elasormek)
 
 ### ← Dependences 
     "express": "^4.16.4",
