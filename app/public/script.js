@@ -203,6 +203,8 @@ var change;
 socket.on("Turn", function(message) {
     tour = message.id;
     console.log("C'est le tour de " + message.id)
+  if(message.id==id)
+    alert("C'est votre tour de jouer avec "+autoColor) ;
 });
 //--------------------
 

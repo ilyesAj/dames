@@ -9,7 +9,6 @@ app.use(express.static('public'));
 
 
 
-
 //-------------connexion BD------------------
 var knex = require('knex')({
     client: 'sqlite3',
@@ -20,7 +19,6 @@ var knex = require('knex')({
     debug: true,
 });
 //-------------------------------------------
-
 
 
 var connected_users = [];
